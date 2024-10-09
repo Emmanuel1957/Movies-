@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(12px);
+  position: fixed;
+  width: 100%;
+  z-index: 111;
+}
+
+ .logo img{
+   max-width: 150px;
+ }
+ 
+ .logo_movie{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   padding-top: 80%;
+ }
+ 
+ 
+ .logo_movie img{
+   max-width: 200px;
+ }
+ 
+ .btn{
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+ }
+ 
+ .btn button{
+   width: 70%;
+   height: 40px;
+   border: none;
+   background: #6a6a6ab0;
+   backdrop-filter: blur(12px);
+   border-radius: 20px;
+   color: white;
+ }
+ 
+ .carrusel_mov{
+   margin-top: 30px;
+ }
+ 
+ .text h1{
+   margin-left: 5px;
+   font-size: 25px;
+   color: white;
+ }
+ 
+ .carrusel{
+   margin-top: 10px;
+   display: flex;
+   overflow-y: auto;
+ }
+ 
+ .card{
+   margin-left: 10px;
+ }
+ 
+ .card img{
+   max-width: 150px;
+ }
